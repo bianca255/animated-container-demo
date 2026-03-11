@@ -151,7 +151,6 @@ AnimatedContainer(
 animated_container_demo/
 ├── lib/
 │   └── main.dart                 # Main application (296 lines)
-├── CHEAT_SHEET.md               # Quick reference guide
 └── README.md                     # This file
 ```
 
@@ -201,6 +200,4 @@ void _animate() {
 
 **Public Repository:** https://github.com/bianca255/animated-container-demo
 
----
-
-**Need to add screenshot?** Run the app, take a screenshot, and save as `screenshot.png` in the project root, then commit and push.
+**To add screenshot:** Run the app, take a screenshot of the demo, save as `screenshot.png` in the project root, then commit and push.
