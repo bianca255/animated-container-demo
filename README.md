@@ -192,12 +192,6 @@ void _animate() {
 - Descriptive variable names (`_isExpanded`, `_borderRadius`)
 - 4 distinct animation scenarios demonstrating different properties
 
-## Repository Information
+## Repository
 
-**Commit History:**
-- Initial commit: Complete Flutter app with 4 interactive examples
-- Second commit: Simplified documentation and removed redundant files
-
-**Public Repository:** https://github.com/bianca255/animated-container-demo
-
-**To add screenshot:** Run the app, take a screenshot of the demo, save as `screenshot.png` in the project root, then commit and push.
+**GitHub:** https://github.com/bianca255/animated-container-demo
