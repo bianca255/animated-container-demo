@@ -191,7 +191,3 @@ void _animate() {
 - Separate builder methods for each example
 - Descriptive variable names (`_isExpanded`, `_borderRadius`)
 - 4 distinct animation scenarios demonstrating different properties
-
-## Repository
-
-**GitHub:** https://github.com/bianca255/animated-container-demo
