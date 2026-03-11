@@ -1,0 +1,20 @@
+TO ADD SCREENSHOT TO README:
+
+1. Run the app:
+   flutter run -d chrome
+
+2. Once the app loads, take a screenshot showing:
+   - The tab buttons at the top (Size, Color, Radius, Combined)
+   - An animated container in the center
+   - The description text at the bottom
+   - The "Animate" button
+
+3. Save the screenshot as "screenshot.png" in the project root folder
+   (same folder as README.md)
+
+4. Commit and push:
+   git add screenshot.png
+   git commit -m "Add demo screenshot"
+   git push
+
+The README already references screenshot.png in the demo section.
