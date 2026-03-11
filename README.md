@@ -8,7 +8,7 @@ A new Flutter project.
 
 A comprehensive Flutter demonstration project showcasing the power of `AnimatedContainer` widget for smooth, implicit animations.
 
-## 🎯 Purpose
+## Purpose
 
 This project is designed for presentations and learning. It demonstrates 4 different animation scenarios using AnimatedContainer:
 
@@ -17,7 +17,7 @@ This project is designed for presentations and learning. It demonstrates 4 diffe
 3. **Border Radius Animation** - Shape morphing (square to circle)
 4. **Combined Animation** - Multiple properties animated together
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Flutter SDK installed
@@ -41,25 +41,17 @@ flutter run -d windows
 flutter run
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 animated_container_demo/
 ├── lib/
 │   └── main.dart                 # Main application with 4 examples
-├── PRESENTATION_NOTES.md         # Detailed presentation guide
-├── CODE_SNIPPETS.md              # Copy-paste code examples
-├── SLIDE_OUTLINE.md              # Complete slide-by-slide outline
+├── CHEAT_SHEET.md               # Quick reference guide
 └── README.md                     # This file
 ```
 
-## 📚 Documentation Files
-
-- **PRESENTATION_NOTES.md** - Complete guide with talking points, key concepts, and Q&A prep
-- **CODE_SNIPPETS.md** - Ready-to-use code examples for different scenarios
-- **SLIDE_OUTLINE.md** - Full presentation structure with 21 slides outlined
-
-## 🎨 Features
+## Features
 
 ### Interactive Demo
 - Tab-based navigation between examples
@@ -73,15 +65,15 @@ animated_container_demo/
 3. **Radius** (600ms, easeInOut) - Border radius morphing
 4. **Combined** (700ms, elasticOut) - Multiple properties with bouncy effect
 
-## 💡 Key Learning Points
+## What is AnimatedContainer?
 
-### What is AnimatedContainer?
 - Implicit animation widget in Flutter
 - Automatically animates property changes
 - No need for AnimationController
 - Perfect for simple, smooth UI transitions
 
-### Key Properties
+## Key Properties
+
 ```dart
 AnimatedContainer(
   duration: Duration(milliseconds: 500),  // Required
@@ -93,24 +85,7 @@ AnimatedContainer(
 )
 ```
 
-## 🎓 Presentation Tips
-
-1. **Start the app before your presentation**
-2. **Progress through tabs 1→4** showing increasing complexity
-3. **Click "Animate" multiple times** to show smooth back-and-forth transitions
-4. **Open main.dart** to show how simple the code is
-5. **Emphasize duration and curve parameters**
-
-## 🔧 Customization
-
-Want to modify the examples? All code is in `lib/main.dart`:
-
-- **State variables** (~line 38) - Change initial values
-- **_toggleAnimation()** (~line 50) - Modify animation logic
-- **Example builders** (~line 170) - Adjust individual animations
-- **Durations and curves** - Experiment with different values
-
-## 📖 Code Examples
+## Code Examples
 
 ### Basic Usage
 ```dart
@@ -131,9 +106,7 @@ void _animate() {
 }
 ```
 
-See `CODE_SNIPPETS.md` for more examples!
-
-## 🎯 Use Cases
+## Use Cases
 
 - Expandable cards
 - Button press effects  
@@ -142,51 +115,13 @@ See `CODE_SNIPPETS.md` for more examples!
 - Modal animations
 - Interactive UI elements
 
-## 📊 Comparison: AnimatedContainer vs AnimationController
+## Comparison: AnimatedContainer vs AnimationController
 
 | Feature | AnimatedContainer | AnimationController |
 |---------|------------------|---------------------|
-| Complexity | Simple ✅ | Complex |
+| Complexity | Simple | Complex |
 | Lines of Code | ~10 | ~50+ |
 | Use Case | Single widget | Multiple widgets |
 | Cleanup | Automatic | Manual |
 
 **Rule:** Start with AnimatedContainer, upgrade to AnimationController only if needed.
-
-## 🐛 Troubleshooting
-
-**App won't run?**
-```bash
-flutter doctor
-flutter clean
-flutter pub get
-flutter run
-```
-
-**Chrome not recognized?**
-```bash
-flutter devices  # Check available devices
-```
-
-## 🔗 Resources
-
-- [Flutter AnimatedContainer Docs](https://api.flutter.dev/flutter/widgets/AnimatedContainer-class.html)
-- [Flutter Animation Tutorial](https://docs.flutter.dev/development/ui/animations)
-- [Curves Catalog](https://api.flutter.dev/flutter/animation/Curves-class.html)
-
-## 📝 License
-
-This is a demo project for educational purposes. Feel free to use and modify!
-
-## 🙋 Questions?
-
-Check out:
-1. `PRESENTATION_NOTES.md` - Detailed explanations
-2. `CODE_SNIPPETS.md` - More code examples
-3. `SLIDE_OUTLINE.md` - Full presentation script
-
----
-
-**Happy Presenting! 🚀**
-
-Built with Flutter ❤️
